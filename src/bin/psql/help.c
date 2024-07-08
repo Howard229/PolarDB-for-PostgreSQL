@@ -8,7 +8,7 @@
 #include "postgres_fe.h"
 
 #ifndef WIN32
-#include <unistd.h>				/* for geteuid() */
+#include <unistd.h>			/* for geteuid() */
 #else
 #include <win32.h>
 #endif
